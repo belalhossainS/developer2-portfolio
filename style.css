@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color:orange;
 }
-section{
+.felexibal-container{
     display: flex;
-        margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 2%;
+    
 }
 .half-width img{
     width: 80%;
@@ -35,4 +39,32 @@ section{
 }
 .Dream Big{
     background-image: url(images/dream-bg.png);
+}
+.experince-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experince-item{
+    width: 40%;
+    box-shadow:10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+#web-developer-experince{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+   border-image: linear-gradient(salmon,tomato);
+  border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
